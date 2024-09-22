@@ -25,7 +25,7 @@ variable "tfc_role_name" {
 variable "tfc_organization_name" {
   type        = string
   description = "The name of your Terraform Cloud organization"
-  default     = "empower-sphere"
+  default     = "aws-vault-testing"
 }
 
 variable "tfc_project_name" {
